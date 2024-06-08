@@ -1,0 +1,22 @@
+.box1{
+    padding: 20px;
+    background-color: aqua;
+    color: black;
+}
+.box2{
+    padding: 20px;
+    background-color: pink;
+    color: white; 
+}
+@media screen and (min-width:505px)   {
+    .maindiv{
+        display:flex;
+    }
+    .box1{
+        background-color: violet
+    }
+    .box2{
+        background-color: aquamarine;
+    }
+    
+}
